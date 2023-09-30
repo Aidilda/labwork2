@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monsterrat;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: monsterrat;
+  src: url(../../sitevs/fonts/monsterrat/static/Montserrat-Medium.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: monsterrat;
+  src: url(../../sitevs/fonts/monsterrat/static/Montserrat-Bold.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  width: 100%;
+  max-height: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  padding-top: 20px;
+}
+
+header .container img {
+  width: auto;
+  height: auto;
+}
+
+header .container .navbar a {
+  text-decoration: none;
+  color: rgb(229, 141, 34);
+  margin: 0 25px;
+  font-weight: 600;
+  font-size: 19px;
+}
